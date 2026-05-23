@@ -84,3 +84,12 @@ Displays all active server PIDs.
 ## Stop Server
 unserve [pid]  
 Stops the server with the specified PID.
+
+## ⚠ WARNING
+
+Running a global/public server from a home network usually will not work because of NAT, firewalls, or blocked ports.
+
+For public connections, use a VPS or hosting with a public IP.
+
+Home devices can still communicate normally inside the same local network (LAN).
+
