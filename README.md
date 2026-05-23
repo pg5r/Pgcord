@@ -57,4 +57,30 @@ PGCORD uses symmetric encryption based on Fernet (AES).
 - All messages are encrypted before transmission
 - Messages are decrypted only on authorized clients
 
-Message format:
+# PgCord Server - Commands
+
+Each running server is identified by a PID.
+
+---
+
+## Start Server
+serve [port|default] [local|public]
+
+- port → any valid port number (example: 5000)  
+- default → uses port 125  
+
+### Bind types:
+- local → 127.0.0.1 (local machine only)  
+- public → 0.0.0.0 (accessible on network)
+
+---
+
+## Show Running Servers
+showpids  
+Displays all active server PIDs.
+
+---
+
+## Stop Server
+unserve [pid]  
+Stops the server with the specified PID.
