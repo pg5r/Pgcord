@@ -71,7 +71,7 @@ serve [port|default] [local|public]
 
 ### Bind types:
 - local → 127.0.0.1 (local machine only)  
-- public → 0.0.0.0 (accessible on network)
+- public → 0.0.0.0 (accessible on network [Including Lan])
 
 ---
 
