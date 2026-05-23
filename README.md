@@ -94,3 +94,5 @@ For public connections, use a VPS or hosting with a public IP.
 
 Home devices can still communicate normally inside the same local network (LAN).
 
+You Can use ZeroTier if you want a server in your device
+
