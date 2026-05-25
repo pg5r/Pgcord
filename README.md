@@ -65,9 +65,9 @@ Each running server is identified by a PID.
 ---
 
 ## Start Server
-serve [port|default] [local|public]
+serve [port|default] [local|public] [servername:required]
 
-- port → any valid port number (example: 5000)  
+- port → any valid port number (example: 5000) 
 - default → uses port 125  
 
 ### Bind types:
