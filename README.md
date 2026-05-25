@@ -1,5 +1,5 @@
 # PGCORD
-## 1.0
+## 1.11
 
 A lightweight encrypted TCP chat system built in Python.
 
