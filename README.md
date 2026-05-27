@@ -1,5 +1,5 @@
 # PGCORD
-## 1.3 Alpha Latest
+## 1.31 Alpha Latest
 
 A lightweight encrypted TCP chat system built in Python.
 
